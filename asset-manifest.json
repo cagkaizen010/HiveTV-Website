@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HiveTV-Website/static/css/main.ce5ee563.css",
+    "main.js": "/HiveTV-Website/static/js/main.ca53a177.js",
+    "static/js/787.9c8dab0f.chunk.js": "/HiveTV-Website/static/js/787.9c8dab0f.chunk.js",
+    "static/media/original.jpg": "/HiveTV-Website/static/media/original.bd1b8b7d90a8373b9acf.jpg",
+    "index.html": "/HiveTV-Website/index.html",
+    "main.ce5ee563.css.map": "/HiveTV-Website/static/css/main.ce5ee563.css.map",
+    "main.ca53a177.js.map": "/HiveTV-Website/static/js/main.ca53a177.js.map",
+    "787.9c8dab0f.chunk.js.map": "/HiveTV-Website/static/js/787.9c8dab0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce5ee563.css",
+    "static/js/main.ca53a177.js"
+  ]
+}
