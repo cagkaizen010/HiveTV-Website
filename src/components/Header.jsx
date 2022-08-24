@@ -25,8 +25,8 @@ function Header() {
                     <a href="https://www.tiktok.com/@hivetvlive?lang=en">
                         <img src={tiktokPNG} alt="TikTok"></img>
                     </a>
-                    <a href="https://www.twitter.com">
-                        <img src={instagramPNG} alt="twitter"></img>
+                    <a href="https://www.instagram.com">
+                        <img src={instagramPNG} alt="instagram"></img>
                     </a>
                     <a href="mailto:media@hivetv.org">
                         <img src={mailPNG} alt="mail"></img>

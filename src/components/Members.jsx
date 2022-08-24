@@ -1,5 +1,5 @@
-import React from "react";
-import Description from "./Description.jsx";
+import React from "react"
+import Description from "./Description.jsx"
 import kaizenPNG from "./images/members/kaizen.png"
 import sigaPNG from "./images/members/siga.jpg"
 import soultyPNG from "./images/members/soulty.jpg"
@@ -63,9 +63,7 @@ function Members() {
                         twitterName= "@x_4rC"
                         twitchName = "@x_4rC"
                         youtubeName = "@xJabee"
-                    />
-                     
-                          
+                    />  
 
                     <Description 
                         id="3"
