@@ -3,8 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Particles from 'particlesjs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+window.onload = function() {
+  Particles.init({
+    selector: '.background',
+    color: ['#FFA500', '#ff2134', '#DBEDF3'],
+    connectParticles: true
+  });
+};
+
 root.render(
   <React.StrictMode>
     <App />
