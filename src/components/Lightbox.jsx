@@ -8,7 +8,7 @@ function Lightbox(props)
     }
 
     return(
-        <div className="lightbox"  id={props.hrefTag}>
+        <div className="lightbox">
             <div className="content container-fluid">
                 <table>
                     <tbody>

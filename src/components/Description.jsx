@@ -23,7 +23,6 @@ function Description(props) {
                 <Lightbox 
                     id = {props.id}
                     isActive = {isActive}
-                    hrefTag = {props.hrefTag}
                     pic = {props.pic}
                     cellName = {props.cellName}
                     name = {props.name}

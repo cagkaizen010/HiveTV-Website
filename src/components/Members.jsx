@@ -13,6 +13,7 @@ import bloodspadePNG from "./images/members/bloodspade.png"
 import verudemiPNG from "./images/members/verudemi.jpg"
 import smolPNG from "./images/members/smol.png"
 import koePNG from "./images/members/koe.jpg"
+import kairuPNG from "./images/members/kairu.png"
 
 function Members() {    
 
@@ -22,7 +23,6 @@ function Members() {
                 <ul className="honeycomb"> 
                     <Description 
                         id="0"
-                        hrefTag = "talent01"
                         pic = {kaizenPNG}
                         cellName = "Senkai"
                         name = "Kaizen &quot;Senkai&quot; Rodriguez"
@@ -37,7 +37,6 @@ function Members() {
                     
                     <Description 
                         id="1"
-                        hrefTag = "talent02"
                         pic = {sigaPNG}
                         cellName = "JustSiga"
                         name = "JustSiga"
@@ -51,7 +50,6 @@ function Members() {
                     /> 
                     <Description 
                         id="2"
-                        hrefTag = "talent10"
                         pic = {jabeePNG}
                         cellName = "xJabee"
                         name = "xJabee"
@@ -66,7 +64,6 @@ function Members() {
 
                     <Description 
                         id="3"
-                        hrefTag = "talent03"
                         pic = {soultyPNG}
                         cellName = "SoultyRagevin"
                         name = "SoultyRagevin"
@@ -81,7 +78,6 @@ function Members() {
 
                     <Description 
                         id="4"
-                        hrefTag = "talent04"
                         pic = {yanaPNG}
                         cellName = "Yanappii"
                         name = "Yanappii"
@@ -96,7 +92,6 @@ function Members() {
                     
                     <Description 
                         id="5"
-                        hrefTag = "talent05"
                         pic = {somaPNG}
                         cellName = "SomaRigel"
                         name = "SomaRigel"
@@ -111,7 +106,6 @@ function Members() {
 
                     <Description 
                         id="6"
-                        hrefTag = "talent07"
                         pic = {luciePNG}
                         cellName = "LucielKaiza"
                         name = "LucielKaiza"
@@ -126,7 +120,6 @@ function Members() {
                     
                     <Description 
                         id="7"
-                        hrefTag = "talent08"
                         pic = {yuanPNG}
                         cellName = "Yuandere"
                         name = "Yuandere"
@@ -141,7 +134,6 @@ function Members() {
 
                     <Description 
                         id="8"
-                        hrefTag = "talent09"
                         pic = {rielaPNG}
                         cellName = "RielaSpellman"
                         name = "RielaSpellman"
@@ -157,7 +149,6 @@ function Members() {
 
                     <Description 
                         id="9"
-                        hrefTag = "talent11"
                         pic = {bloodspadePNG}
                         cellName = "Bloodspade"
                         name = "Bloodspade"
@@ -172,7 +163,6 @@ function Members() {
 
                     <Description
                         id="10"
-                        hrefTag = "talent 12"
                         pic = {verudemiPNG}
                         cellName = "Verudemi"
                         name = "Verudemi"
@@ -187,7 +177,6 @@ function Members() {
 
                     <Description 
                         id="11"
-                        hrefTag = "talent02"
                         pic = {smolPNG}
                         cellName = "SmolSeaWitch"
                         name = "SmolSeaWitch"
@@ -203,7 +192,6 @@ function Members() {
 
                     <Description 
                         id="12"
-                        hrefTag = "talent02"
                         pic = {koePNG}
                         cellName = "Koe"
                         name = "Koe"
@@ -216,6 +204,22 @@ function Members() {
                         twitchName = "@koeland"
                         youtubeName = ""
                     /> 
+
+                    <Description 
+                        id="13"
+                        pic = {kairuPNG}
+                        cellName = "KairuMizuki"
+                        name = "KairuMizuki"
+                        desc = "I sing and eat."
+                        twitterLink = "https://mobile.twitter.com/mizukikairu"
+                        twitchLink = "https://www.twitch.tv/kairumizuki"
+                        youtubeLink = "https://www.youtube.com/c/KairuMizukiCh"
+                        twitterName= "@MizukiKairu"
+                        twitchName = "@KairuMizuki"
+                        youtubeName = "Kairu Mizuki Ch."
+                    /> 
+
+                    
                     
                     <li className="honeycomb-cell honeycomb_Hidden">
                     </li>
