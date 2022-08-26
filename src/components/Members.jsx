@@ -26,7 +26,7 @@ function Members() {
                         pic = {kaizenPNG}
                         cellName = "Senkai"
                         name = "Kaizen &quot;Senkai&quot; Rodriguez"
-                        desc = "Greetings, I am the CTO of HiveTV! Thank you for your support of our talents as our mission is to create a source of happiness for people all around the world. We look forward to bringing you more content as we are a growing community of Vtubers, eager to take on challenges in multimedia!"
+                        desc = "The engineer and “waste management” of Siga’s mafia, Senkai was a normal young man who wanted to have a simple life. However he grew an inferiority complex as he felt that his intelligence is lacking and that he could have done better in life. Ambitiousness got a hold of him as he tried to rush finishing his tech courses and burned him out. Self studying how to utilize magical technology in the process. This led him to a dark path where he felt directionless in life and all he had was magical technology to keep him company. This brought him to Siga’s Mafia, when he ran into them and was brought into their base when he felt concerned for him as he walked towards a harbor. Kaizen now resides in Siga’s base as the technological manager of the weapons and logistics of the mafia."
                         twitterLink = "https://www.twitter.com/senkaiEN"
                         twitchLink = "https://www.twitch.tv/cagkaizen010"
                         youtubeLink = "https://www.youtube.com/channel/UCS_x2iCF5bK4HVBj8Ij_bzQ"
@@ -41,8 +41,7 @@ function Members() {
                         pic = {sigaPNG}
                         cellName = "JustSiga"
                         name = "JustSiga"
-                        desc = "Siga is capable of copying abilities’ appearance and elements. This domain however is capable of only replicating that much. Any divine abilities or abilities involving dimensions cannot be copied. (Siga can copy Soma’s floating weapons, but not the actual floating weapons themselves 1 for 1 or Amihan’s storm dimension, where Siga can only create lightning from his hands and summon a small basilisk) "
-                
+                        desc = "After his family was forcefully turned into automatons by a corrupted agency, Siga turned to make his own organization meant to destroy them as an act of revenge. He accrued a massive fortune from an old man who was also oppressed by the agency but died due to mana sickness. Siga took on his mission and formed the Sigang and free the people from people who commit injustice."
                         twitterLink = "https://twitter.com/justsigach"
                         twitchLink = "https://www.twitch.tv/justsigach"
                         youtubeLink = "https://www.youtube.com/channel/UC2f7GtYR-pbdMXQrKDqqOSA"
@@ -56,7 +55,7 @@ function Members() {
                         pic = {jabeePNG}
                         cellName = "xJabee"
                         name = "xJabee"
-                        desc = "What the Dog Doin? - Jabee is the founder of the Hive bar, nobody knows why the dog did it, but the dog did it anyway. "
+                        desc = "A dog who awakened an ability to manifest portals into the void. Jabee seeks to use his interdimensional bar, known as the Hive Bar, to bring heroes from any place in the world together to defeat a swiftly approaching threat. The Hive Bar brought all of the members together as one. "
                         twitterLink = "https://twitter.com/x_4rC"
                         twitchLink = "https://www.twitch.tv/x_4rc"
                         youtubeLink = "https://www.youtube.com/c/xJabee"
@@ -86,7 +85,7 @@ function Members() {
                         pic = {yanaPNG}
                         cellName = "Yanappii"
                         name = "Yanappii"
-                        desc = "Yana has always been avoiding human interactions as a nekomata since they are known to be vicious and malevolent so she kept herself in the mountains. She kept herself hidden from the humans in fear that her temper might get the better of her like what happened before at the second she transformed into a nekomata at the age of 100. She wreacked havoc in a village after being chased by a group that was going to kill her in her cat vessel knowing that she would turn into a nekomata any moment. In the act of self defense her transformation got her to summon fireballs unconsciously to burn her pursuers, the sight caught her into a frenzy due to the fear, confusion and the surging power that suddenly she feels flowing in her body."
+                        desc = "A nekomata who doesn’t want to be feared or hurt anyone. Yana secluded herself for some time in the mountains due to wreaking havoc on a village due to her powers as a Nekomata. Yana has immense power, which was something she had mixed emotions about. She enjoys painting in her time in the mountains, always with a paintbrush at hand. "
                         twitterLink = "https://twitter.com/Yannapii"
                         twitchLink = "https://www.twitch.tv/yanapii"
                         youtubeLink = "https://www.youtube.com/channel/UCqx9Dk21gHD5nv2qinNz6Pw"
@@ -101,7 +100,7 @@ function Members() {
                         pic = {somaPNG}
                         cellName = "SomaRigel"
                         name = "SomaRigel"
-                        desc = "When he was in Hell, Soma forged countless divine guns. However, all of them fell flat as those guns are unnamed and disposable. Eventually he did it, Soma created his first Sacred Divine Weapon, which requires a name. How many named weapons will he build in his journey on the Surface?"
+                        desc = "After losing job to a thermostat in Hell, the Yatagarasu Soma moved to the Surface World to start a new life. He has countless weapons at his disposal only for all of them to break in three uses. This does not stop him from creating Mastercraft weapons, or named weapons. How many will he forge in his giant armory? "
                         twitterLink = "https://twitter.com/somarigel?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                         twitchLink = "https://www.twitch.tv/somarigel"
                         youtubeLink = "https://www.youtube.com/c/SomaCh"
@@ -116,7 +115,7 @@ function Members() {
                         pic = {luciePNG}
                         cellName = "LucielKaiza"
                         name = "LucielKaiza"
-                        desc = ""
+                        desc = "An outcasted Angel, because she manifested horns instead of a halo. Luciel or Luci is actually a demon who grew up in the Heavens, then moved to the Underworld to find more about her demon heritage. She moved to the Surface World after hearing rumors of a certain bird god being kicked out and was curious about it as well. After moving to the Surface World, the demon hid her horns and tail to disguise herself among the Humans. She of course took on part time jobs, bought an apartment and eventually came across VTubers. Luciel met Yana later on and became part of the Hive. "
                         twitterLink = "https://twitter.com/lucielkaiza"
                         twitchLink = "https://www.twitch.tv/lucielkaiza"
                         youtubeLink = "https://www.youtube.com/channel/UC9gjgbM580VhJNQuOB3n4kQ"
@@ -146,7 +145,7 @@ function Members() {
                         pic = {rielaPNG}
                         cellName = "RielaSpellman"
                         name = "RielaSpellman"
-                        desc = ""
+                        desc = "Riela the word witch is a kid has the capability to manipulate entities and situations, his power is dependent on his tone of speaking and energy. He also owns a magical inn that can only be reached by one of his doors that can traverse dimensions. Siga found and befriended him and through his power, found the Hive Bar."
                         twitterLink = "https://mobile.twitter.com/rielaspellman"
                         twitchLink = "https://www.twitch.tv/rielaspellman"
                         youtubeLink = "N/A"
@@ -208,7 +207,7 @@ function Members() {
                         pic = {koePNG}
                         cellName = "Koe"
                         name = "Koe"
-                        desc = "Fruity Ass Bat"
+                        desc = "Fruit Bat that whips and naenaes"
                 
                         twitterLink = "https://twitter.com/koeland_"
                         twitchLink = "https://www.twitch.tv/koeland"
