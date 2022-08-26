@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HiveTV-Website/static/css/main.cd9bc0df.css",
-    "main.js": "/HiveTV-Website/static/js/main.371b3055.js",
+    "main.js": "/HiveTV-Website/static/js/main.be7c59d9.js",
     "static/js/787.9c8dab0f.chunk.js": "/HiveTV-Website/static/js/787.9c8dab0f.chunk.js",
     "static/media/jabee.png": "/HiveTV-Website/static/media/jabee.0d0b7cf051abd2174867.png",
     "static/media/instagram.png": "/HiveTV-Website/static/media/instagram.e291349581f33a4f4b3e.png",
@@ -22,11 +22,11 @@
     "static/media/twitter.png": "/HiveTV-Website/static/media/twitter.57573394db94634d7e1f.png",
     "index.html": "/HiveTV-Website/index.html",
     "main.cd9bc0df.css.map": "/HiveTV-Website/static/css/main.cd9bc0df.css.map",
-    "main.371b3055.js.map": "/HiveTV-Website/static/js/main.371b3055.js.map",
+    "main.be7c59d9.js.map": "/HiveTV-Website/static/js/main.be7c59d9.js.map",
     "787.9c8dab0f.chunk.js.map": "/HiveTV-Website/static/js/787.9c8dab0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd9bc0df.css",
-    "static/js/main.371b3055.js"
+    "static/js/main.be7c59d9.js"
   ]
 }
