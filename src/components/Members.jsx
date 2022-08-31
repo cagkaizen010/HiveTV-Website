@@ -1,4 +1,4 @@
-import Description from './Description';
+import HoneyCombCell from './HoneyCombCell';
 
 const members = [
   {
@@ -193,7 +193,7 @@ const Members = () => (
           },
           i
         ) => (
-          <Description
+          <HoneyCombCell
             key={cellName}
             id={i}
             pic={pic}
