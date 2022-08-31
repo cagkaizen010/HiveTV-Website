@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  /* display: block; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+body {
+  color: white;
+  /* background-image: url("./original.jpg"); */
+  /* background-size: 100%;
+  background-repeat: repeat; */
+  align-items: center;
+  margin: 0% 5% 0% 5%;
+}
+
+.container-fluid {
+  position: relative;
+  padding: 1% 1% 1% 1%;
+}
+
+.header-element {
+  margin: 5%;
+  padding: auto;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 1);
+  margin: 0% 10% 0% 10%;
+  padding: 7%;
+  border-radius: 2rem;
+}
+
+.header-element .content {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo-div img {
+  display: block;
+  display: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  border-radius: 100%;
+  width: 25vh;
+}
+
+.header-element h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 5.5rem;
+  color: orange;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 2.5rem;
+  color: orange;
+}
+
+.header-element .content h1 {
+  font-size: 4.5vh;
+}
+
+.content .description {
+  margin-top: 5%;
+  font-size: 1rem;
+}
+.content .socials img {
+  border-radius: 100%;
+  background-color: grey;
+  padding: 5px 5px 5px 5px;
+  margin: 0% 5% 0% 5%;
+  width: 75px;
+}
+
+.members-content {
+  background-color: black;
+  margin: 0% 10% 0% 10%;
+  padding: 7%;
+  border-radius: 15px;
+}
+
+@media (min-width: 400px) {
+  .logo-div img {
+    width: 30vh;
+  }
+
+  .content .description {
+    font-size: 2rem;
+  }
+  .content .socials img {
+    width: 75px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo-div img {
+    width: 20vh;
+  }
+
+  .content .description {
+    font-size: 1rem;
+  }
+
+  .content .socials img {
+    width: 5vh;
+  }
+}
+
+.button {
+  margin: 0%;
+  background-color: rgba(0, 0, 0, 0);
+  width: 300px;
+  z-index: 0;
+}

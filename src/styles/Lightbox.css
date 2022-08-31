@@ -1,0 +1,137 @@
+/* LIGHTBOX START */
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #bbb;
+}
+
+.italic {
+  font-style: italic;
+}
+.small {
+  font-size: 0.8em;
+}
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  overflow-x: scroll;
+  flex-wrap: wrap;
+}
+
+.lightbox.shown {
+  display: inherit;
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 100%;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.lightbox .content {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.lightbox .content img {
+  background-image: linear-gradient(to bottom right, gold, orange);
+  float: left;
+  margin-right: 6rem;
+  margin-bottom: 1rem;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td h1 {
+  word-wrap: break-word;
+  text-align: left;
+}
+td,
+th {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  vertical-align: top;
+}
+
+.closeButton {
+  float: right;
+}
+
+@media (min-width: 300px) and (max-width: 999px) {
+  .lightbox .content {
+    font-size: 2vh;
+  }
+  .lightbox .content img {
+    width: 100%;
+    float: left;
+    margin-right: 1rem;
+  }
+  .lightbox h1 {
+    font-size: 3vh;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1999px) {
+  .lightbox .content {
+    font-size: 2vh;
+  }
+
+  .lightbox .content img {
+    width: 40%;
+    float: left;
+    margin-right: 3rem;
+  }
+
+  .lightbox h1 {
+    font-size: 3vh;
+  }
+}
+
+@media (min-width: 2000px) {
+  .lightbox .content {
+    font-size: 2vh;
+  }
+
+  .lightbox .content img {
+    background-image: linear-gradient(to bottom right, gold, orange);
+    width: 40%;
+    float: left;
+  }
+
+  .lightbox h1 {
+    font-size: 3vh;
+  }
+}
+
+/* LIGHTBOX END */
