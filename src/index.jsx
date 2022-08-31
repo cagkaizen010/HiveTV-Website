@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import Particles from 'particlesjs';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-window.onload = function() {
+window.onload = () => {
   Particles.init({
     selector: '.background',
     color: ['#FFA500', '#ff2134', '#DBEDF3'],
-    connectParticles: true
+    connectParticles: true,
   });
 };
 

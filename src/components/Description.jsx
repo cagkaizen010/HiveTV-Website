@@ -1,43 +1,55 @@
-import React, {useState} from "react"
-import Lightbox from "./Lightbox.jsx"
+import Lightbox from './Lightbox';
 
+import { useState } from 'react';
 
-function Description(props) {
-    const [isActive, setIsActive] = useState(false);
+const Description = ({
+  id,
+  pic,
+  cellName,
+  name,
+  desc,
+  twitterLink,
+  twitterName,
+  twitchLink,
+  twitchName,
+  youtubeLink,
+  youtubeName,
+}) => {
+  const [isActive, setIsActive] = useState(false);
 
-    function handleClick(event) {
-        setIsActive(!isActive);
+  function handleClick() {
+    setIsActive(!isActive);
 
-        isActive ? (document.getElementsByClassName("lightbox")[props.id].style.display = "inherit") : 
-            (document.getElementsByClassName("lightbox")[props.id].style.display = "inherit");
-
+    if (isActive) {
+      document.getElementsByClassName('lightbox')[id].style.display = 'inherit';
+    } else {
+      document.getElementsByClassName('lightbox')[id].style.display = 'inherit';
     }
+  }
 
-    return (
-            <li id="cellie" className="honeycomb-cell">
-                <a onClick={handleClick} href="#/" className="button">
-                    <img className="honeycomb-cell_img" src={props.pic} alt="talent-img"></img>
-                    <div className="honeycomb-cell_title">{props.cellName}</div>
-                </a>
+  return (
+    <li id="cellie" className="honeycomb-cell">
+      <a onClick={handleClick} href="#/" className="button">
+        <img className="honeycomb-cell_img" src={pic} alt="talent-img" />
+        <div className="honeycomb-cell_title">{cellName}</div>
+      </a>
 
-                <Lightbox 
-                    id = {props.id}
-                    isActive = {isActive}
-                    pic = {props.pic}
-                    cellName = {props.cellName}
-                    name = {props.name}
-                    desc = {props.desc}
-                    twitterLink = {props.twitterLink}
-                    twitchLink = {props.twitchLink}
-                    youtubeLink = {props.youtubeLink}
-                    twitterName= {props.twitterName}
-                    twitchName = {props.twitchName}
-                    youtubeName = {props.youtubeName}
-                />
-            </li>
-            
-    );          
-}
+      <Lightbox
+        id={id}
+        isActive={isActive}
+        pic={pic}
+        cellName={cellName}
+        name={name}
+        desc={desc}
+        twitterLink={twitterLink}
+        twitchLink={twitchLink}
+        youtubeLink={youtubeLink}
+        twitterName={twitterName}
+        twitchName={twitchName}
+        youtubeName={youtubeName}
+      />
+    </li>
+  );
+};
 
 export default Description;
-
