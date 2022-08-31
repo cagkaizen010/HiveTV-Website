@@ -1,14 +1,8 @@
-import instagramPNG from './images/instagram.png';
-import logoPNG from './images/logo.jpg';
-import mailPNG from './images/mail.png';
-import tiktokPNG from './images/tiktok.png';
-import twitterPNG from './images/twitter.png';
-
 const Header = () => (
   <div className="col-md-12 col-lg-6 col-sm-3 header-element">
     <div className="content">
       <div className="logo-div">
-        <img src={logoPNG} alt="logo" />
+        <img src="/images/icons/logo.jpg" alt="logo" />
       </div>
       <h1>HiveTV</h1>
       <div className="description">
@@ -21,16 +15,16 @@ const Header = () => (
       </div>
       <div className="socials">
         <a href="https://www.twitter.com">
-          <img src={twitterPNG} alt="twitter" />
+          <img src="/images/icons/twitter.png" alt="twitter" />
         </a>
         <a href="https://www.tiktok.com/@hivetvlive?lang=en">
-          <img src={tiktokPNG} alt="TikTok" />
+          <img src="/images/icons/tiktok.png" alt="TikTok" />
         </a>
         <a href="https://www.instagram.com">
-          <img src={instagramPNG} alt="instagram" />
+          <img src="/images/icons/instagram.png" alt="instagram" />
         </a>
         <a href="mailto:media@hivetv.org">
-          <img src={mailPNG} alt="mail" />
+          <img src="/images/icons/mail.png" alt="mail" />
         </a>
       </div>
     </div>
